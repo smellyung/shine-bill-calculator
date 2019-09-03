@@ -11,7 +11,7 @@ export default function EnterMeterRead() {
         <div className='enter-meter-read'>
             <h1>Please enter your (Gas/Electricity) Meter Read:</h1>
             <div>
-                <input value={value} onChange={handleChange}/>
+                <input type='number' value={value} onChange={handleChange}/>
                 <Link to={{ pathname: '/gas-summary', value}} >
                     <button>
                         Submit

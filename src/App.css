@@ -14,10 +14,15 @@
 }
 
 .container {
-  flex-direction: initial 
+  flex-direction: initial;
 }
 
 .App-link {
   color: #61dafb;
+}
+
+.energy-links {
+  width: 100%;
+  justify-content: space-between;
 }
 
