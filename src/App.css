@@ -19,6 +19,15 @@
   color: white;
 }
 
+.image {
+  height: 100px;
+}
+
+.container {
+  flex-direction: initial 
+}
+
+
 .App-link {
   color: #61dafb;
 }
